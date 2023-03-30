@@ -9,7 +9,6 @@ import java.io.InputStream;
 import java.net.URL;
 import java.io.File;
 
-
 public class App {
     public static void main(String[] args) throws Exception { 
         
@@ -21,12 +20,11 @@ public class App {
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
 
-        //exibir e manipular os dados
-        ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
-
         var diretorio = new File("saida2/");
         diretorio.mkdir();
 
+        //exibir e manipular os dados
+        ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
         List<Conteudo> conteudos = extrator.extraiConteudos(json);
 
         var geradora = new GeradoraDeFigurinhas();
