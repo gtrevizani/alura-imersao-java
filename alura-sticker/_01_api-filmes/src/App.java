@@ -14,8 +14,13 @@ public class App {
         
         // fazer uma conexão HTTP e buscar os top 250 filmes
         // String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularMovies.json";
-        String url = ("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14");
-        // ExtratorDeConteudoDoIMDB extrator = new ExtratorDeConteudoDoIMDB();
+        // ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
+
+        // String url = ("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14");
+        // ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
+
+        String url = ("http://localhost:8080/linguagens");
+        ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
 
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
@@ -24,12 +29,11 @@ public class App {
         diretorio.mkdir();
 
         //exibir e manipular os dados
-        ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
         List<Conteudo> conteudos = extrator.extraiConteudos(json);
 
         var geradora = new GeradoraDeFigurinhas();
         
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 4; i++){
            Conteudo conteudo = conteudos.get(i);
             
             InputStream inputStream = new URL(conteudo.getUrlImagem()).openStream();
