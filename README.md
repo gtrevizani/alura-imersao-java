@@ -1,4 +1,4 @@
-# ALURA-IMERSAO-JAVA
+# Imersão Java - Alura
 > Por Guilherme Iglesias Trevizani <guilhermetrevz@outlook.com>
 >
 > Técnico em Desenvolvimento de Sistemas
