@@ -41,9 +41,11 @@ Nessa aula o objetivo é construir uma API REST para expor nosso próprio conte�
 
 **Ferramentas utilizadas:**
 
-| Framework  | Link   | Banco de Dados | Link   | Plataforma API | Link    |
-| :-----:    | :-----:| :-----:        | :-----:| :-----:        | :-----: |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" width="40" height="40" /> | [Spring  Boot](https://spring.io/) | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="40" height="40" /> | [MongoDB](https://www.mongodb.com/) | <img src="https://user-images.githubusercontent.com/7853266/44114706-9c72dd08-9fd1-11e8-8d9d-6d9d651c75ad.png" width="40" height="40" /> | [Postman](https://www.postman.com/)
+<div align="center">
+     | Framework  | Link   | Banco de Dados | Link   | Plataforma API | Link    |
+     | :-----:    | :-----:| :-----:        | :-----:| :-----:        | :-----: |
+     | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" width="40" height="40" /> | [Spring  Boot](https://spring.io/) | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="40" height="40" /> | [MongoDB](https://www.mongodb.com/) | <img src="https://user-images.githubusercontent.com/7853266/44114706-9c72dd08-9fd1-11e8-8d9d-6d9d651c75ad.png" width="40" height="40" /> | [Postman](https://www.postman.com/)
+</div>
 
 
 # AULA 5: PUBLICANDO A API NO CLOUD
