@@ -56,9 +56,13 @@ Tornar a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem. 
 
 **Ferramentas utilizadas:**
 
+<div align="center">
+
 | Containers | Link   | PaaS    | Link   | 
 | :-----:    | :-----:| :-----: | :-----:|
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" /> | [Docker](https://www.docker.com/) | <img src="https://fly.io/static/images/brand/logo-landscape.svg" width="40" height="40" /> | [Fly.io](https://fly.io/) |
+     
+</div>
 
 ---
 
